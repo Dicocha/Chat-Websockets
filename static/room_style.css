@@ -1,0 +1,65 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.attach_btn {
+  border-radius: 15px 0 0 15px !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border: 0 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.send_btn {
+  border-radius: 0 15px 15px 0 !important;
+  border: 0 !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.incoming {
+  margin: 10px 10px 10px 0;
+  border-radius: 25px;
+  background-color: #82ccdd;
+  padding: 10px;
+  position: relative;
+  align-self: flex-end;
+  max-width: 60%;
+}
+
+.incoming > p {
+  text-align: right;
+  margin: 0;
+  color: white;
+}
+
+.outcoming {
+  margin: 10px 0 10px 10px;
+  border-radius: 25px;
+  background-color: #78e08f;
+  padding: 10px;
+  position: relative;
+  align-self: flex-start;
+  max-width: 60%;
+}
+
+.outcoming > p {
+  text-align: left;
+  margin: 0;
+  color: white;
+}
+
+#cont-message {
+  overflow-y: auto;
+  padding: 10px;
+}
